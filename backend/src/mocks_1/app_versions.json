@@ -1,0 +1,40 @@
+{
+  "url": "/api/web/applications/:appSlug/:appMode/app_versions",
+  "method": "GET",
+  "delay": 0,
+  "response": {
+    "app_versions": [
+      {
+        "app_version": "3.1.4 (4)+codepush:4",
+        "sdk_version": "12.5.1",
+        "top_release": true,
+        "first_seen": 1709866616,
+        "is_v3": true,
+        "store_ios": {
+          "rolled_out_value": 20,
+          "rolled_out_status": "ACTIVE",
+          "rolled_out_last_updated": 1710252045000
+        },
+        "store_android": {
+          "rolled_out_value": 20,
+          "rolled_out_status": "PAUSED",
+          "rolled_out_last_updated": 1710252045000
+        }
+      },
+      {
+        "app_version": "4.1.2 (5)+codepush:5",
+        "sdk_version": "11.2.0",
+        "top_release": true,
+        "first_seen": 1709866616,
+        "is_v3": true,
+        "store_ios": {
+          "rolled_out_value": 100,
+          "rolled_out_status": "COMPLETE",
+          "rolled_out_last_updated": 1710252045000
+        },
+        "store_android": null
+      }
+    ],
+    "is_store_api_succeeded": true
+  }
+}

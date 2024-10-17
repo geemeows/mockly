@@ -1,0 +1,55 @@
+{
+  "url": "/api/web/applications/:appSlug/:appMode/apm/screens/:screenID/performance",
+  "method": "POST",
+  "delay": 0,
+  "response": {
+    "screen_name": "Gazouly's screen",
+    "screen_visits": 1240012,
+    "performance_score": 0.93323,
+    "stability_score": 0.123123,
+    "stability_metrics_enabled":true,
+    "crash_free_visits": {
+      "percentage": null,
+      "rate_change": 99.2,
+      "views": ["ViewController"]
+    },
+    "app_hangs_free_visits": {
+      "percentage": 99.241234,
+      "rate_change": 99.2412,
+      "views": ["ViewController"]
+    },
+    "user_termination_free_visits": {
+      "percentage": 97.241234,
+      "rate_change": 99.2412,
+      "views": ["ViewController"]
+    },
+    "screen_loading": {
+      "apdex": null,
+      "95th_percentile_ms": null, 
+      "apdex_change": null 
+    },
+    "hot_app_launch": {
+      "apdex": null,
+      "95th_percentile_ms": 12, 
+      "apdex_change": 3.2, 
+      "screens": [
+        "com.example.app.compose.ComposeActivity",
+        "com.example.app.instacaptureSample.CubeGLSurfaceViewSampleActivity",
+        "com.example.app.main.MainActivity"
+      ]
+    },
+    "cold_app_launch": {
+      "apdex": 0,
+      "95th_percentile_ms": 12, 
+      "apdex_change": 3.2, 
+      "screens": [
+        "com.example.app.compose.ComposeActivity",
+        "com.example.app.main.MainActivity"
+      ]
+    },
+    "ui_hangs": {
+      "apdex": 0.9,
+      "apdex_change": 3.2 
+    }
+	}
+}

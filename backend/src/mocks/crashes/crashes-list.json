@@ -1,0 +1,344 @@
+{
+  "url": "/api/web/applications/:appSlug/:appMode/crashes",
+  "method": "POST",
+  "delay": 2000,
+  "status": 200,
+  "response": {
+    "crashes": [
+      {
+        "min_app_version": "1.1.1 (1)",
+        "max_app_version": "4.1.2 (5)",
+        "last_occurred_at": 1714534525000,
+        "first_occurred_at": 1709116623000,
+        "affected_users_counter": 251,
+        "occurrences_counter": 251,
+        "severity": 0,
+        "crash_distribution_chart": {
+          "date_bucket": {
+            "unit": "day",
+            "value": 4
+          },
+          "data": [
+            {
+              "date_ms": 1712091600000,
+              "total_crashes_count": 10
+            },
+            {
+              "date_ms": 1712437200000,
+              "total_crashes_count": 55
+            },
+            {
+              "date_ms": 1712782800000,
+              "total_crashes_count": 44
+            },
+            {
+              "date_ms": 1713128400000,
+              "total_crashes_count": 19
+            },
+            {
+              "date_ms": 1713474000000,
+              "total_crashes_count": 42
+            },
+            {
+              "date_ms": 1713819600000,
+              "total_crashes_count": 34
+            },
+            {
+              "date_ms": 1714165200000,
+              "total_crashes_count": 29
+            },
+            {
+              "date_ms": 1714510800000,
+              "total_crashes_count": 18
+            }
+          ]
+        },
+        "status_id": 1,
+        "number": 43,
+        "assignee_id": -1,
+        "exception": "Crash due to signal: SIGABRT(#0) at 7fff7017300e",
+        "crash_cause": "_wrap_pthread_kill",
+        "crash_type": "CRASH",
+        "platform": "IOS",
+        "tags": [1284221, 1283564, 1283562, 1283565, 1283563],
+        "current_view": "IBGCPPExcpetionsTableViewController",
+        "team": {
+          "name": "N/A",
+          "id": ""
+        },
+        "app_version": "3.0.4 (3)",
+        "first_occurred": 1709116623000,
+        "signals": [],
+        "exception_name": "SIGABRT"
+      },
+      {
+        "min_app_version": "1.1.1 (1)",
+        "max_app_version": "4.1.2 (5)",
+        "last_occurred_at": 1714534365000,
+        "first_occurred_at": 1664670430000,
+        "affected_users_counter": 58,
+        "occurrences_counter": 58,
+        "severity": 1,
+        "crash_distribution_chart": {
+          "date_bucket": {
+            "unit": "day",
+            "value": 4
+          },
+          "data": [
+            {
+              "date_ms": 1712091600000,
+              "total_crashes_count": 0
+            },
+            {
+              "date_ms": 1712437200000,
+              "total_crashes_count": 18
+            },
+            {
+              "date_ms": 1712782800000,
+              "total_crashes_count": 6
+            },
+            {
+              "date_ms": 1713128400000,
+              "total_crashes_count": 0
+            },
+            {
+              "date_ms": 1713474000000,
+              "total_crashes_count": 16
+            },
+            {
+              "date_ms": 1713819600000,
+              "total_crashes_count": 6
+            },
+            {
+              "date_ms": 1714165200000,
+              "total_crashes_count": 5
+            },
+            {
+              "date_ms": 1714510800000,
+              "total_crashes_count": 7
+            }
+          ]
+        },
+        "status_id": 1,
+        "number": 10,
+        "assignee_id": -1,
+        "exception": "Exception Name",
+        "crash_cause": "-[IBGPLCrashReporter generateLiveReportWithThread:fileDescriptor:exception:error:]",
+        "crash_type": "NON_FATAL",
+        "platform": "IOS",
+        "tags": [1283564, 1283563, 1284221, 1283562, 1283565],
+        "current_view": "ViewController",
+        "team": {
+          "name": "Streaming Team",
+          "id": "01H14JXFRZZQ81AV778V40TDC8"
+        },
+        "app_version": " ()",
+        "first_occurred": 1664670430000,
+        "signals": [],
+        "exception_name": "500",
+        "level": "error"
+      },
+      {
+        "min_app_version": "1.1.1 (1)",
+        "max_app_version": "4.1.2 (5)",
+        "last_occurred_at": 1714534160000,
+        "first_occurred_at": 1664190932000,
+        "affected_users_counter": 33,
+        "occurrences_counter": 33,
+        "severity": 2,
+        "crash_distribution_chart": {
+          "date_bucket": {
+            "unit": "day",
+            "value": 4
+          },
+          "data": [
+            {
+              "date_ms": 1712091600000,
+              "total_crashes_count": 5
+            },
+            {
+              "date_ms": 1712437200000,
+              "total_crashes_count": 5
+            },
+            {
+              "date_ms": 1712782800000,
+              "total_crashes_count": 6
+            },
+            {
+              "date_ms": 1713128400000,
+              "total_crashes_count": 0
+            },
+            {
+              "date_ms": 1713474000000,
+              "total_crashes_count": 7
+            },
+            {
+              "date_ms": 1713819600000,
+              "total_crashes_count": 0
+            },
+            {
+              "date_ms": 1714165200000,
+              "total_crashes_count": 0
+            },
+            {
+              "date_ms": 1714510800000,
+              "total_crashes_count": 10
+            }
+          ]
+        },
+        "status_id": 1,
+        "number": 1,
+        "assignee_id": 238799,
+        "exception": "Unknown Method",
+        "crash_cause": "This error did not return a stack trace",
+        "crash_type": "OOM",
+        "platform": "IOS",
+        "tags": [1389264, 1283562, 1284221, 1283563, 1283564, 1283565],
+        "current_view": "ViewController",
+        "team": {
+          "name": "Config Team",
+          "id": "01H17HWQ3Z8BVZPZ7EPXS3E65T"
+        },
+        "app_version": " ()",
+        "first_occurred": 1664190932000,
+        "signals": [],
+        "exception_name": "Out Of Memory"
+      },
+      {
+        "min_app_version": "1.1.1 (1)",
+        "max_app_version": "4.1.2 (5)",
+        "last_occurred_at": 1714534447000,
+        "first_occurred_at": 1709073383000,
+        "affected_users_counter": 27,
+        "occurrences_counter": 27,
+        "severity": 0,
+        "crash_distribution_chart": {
+          "date_bucket": {
+            "unit": "day",
+            "value": 4
+          },
+          "data": [
+            {
+              "date_ms": 1712091600000,
+              "total_crashes_count": 0
+            },
+            {
+              "date_ms": 1712437200000,
+              "total_crashes_count": 7
+            },
+            {
+              "date_ms": 1712782800000,
+              "total_crashes_count": 5
+            },
+            {
+              "date_ms": 1713128400000,
+              "total_crashes_count": 0
+            },
+            {
+              "date_ms": 1713474000000,
+              "total_crashes_count": 10
+            },
+            {
+              "date_ms": 1713819600000,
+              "total_crashes_count": 5
+            },
+            {
+              "date_ms": 1714165200000,
+              "total_crashes_count": 0
+            },
+            {
+              "date_ms": 1714510800000,
+              "total_crashes_count": 0
+            }
+          ]
+        },
+        "status_id": 1,
+        "number": 42,
+        "assignee_id": -1,
+        "exception": "domain",
+        "crash_cause": "-[IBGPLCrashReporter generateLiveReportWithThread:fileDescriptor:exception:error:]",
+        "crash_type": "NON_FATAL",
+        "platform": "IOS",
+        "tags": [1283563, 1283564, 1283565, 1283562, 1284221],
+        "current_view": "ViewController",
+        "team": {
+          "name": "N/A",
+          "id": ""
+        },
+        "app_version": "1.1.1 (1)",
+        "first_occurred": 1709073383000,
+        "signals": [],
+        "exception_name": "404",
+        "level": "error"
+      },
+      {
+        "min_app_version": "1.1.1 (1)",
+        "max_app_version": "4.1.2 (5)",
+        "last_occurred_at": 1714533939000,
+        "first_occurred_at": 1664191004000,
+        "affected_users_counter": 12,
+        "occurrences_counter": 12,
+        "severity": 2,
+        "crash_distribution_chart": {
+          "date_bucket": {
+            "unit": "day",
+            "value": 4
+          },
+          "data": [
+            {
+              "date_ms": 1712091600000,
+              "total_crashes_count": 0
+            },
+            {
+              "date_ms": 1712437200000,
+              "total_crashes_count": 5
+            },
+            {
+              "date_ms": 1712782800000,
+              "total_crashes_count": 0
+            },
+            {
+              "date_ms": 1713128400000,
+              "total_crashes_count": 0
+            },
+            {
+              "date_ms": 1713474000000,
+              "total_crashes_count": 0
+            },
+            {
+              "date_ms": 1713819600000,
+              "total_crashes_count": 0
+            },
+            {
+              "date_ms": 1714165200000,
+              "total_crashes_count": 7
+            },
+            {
+              "date_ms": 1714510800000,
+              "total_crashes_count": 0
+            }
+          ]
+        },
+        "status_id": 3,
+        "number": 2,
+        "assignee_id": 238800,
+        "exception": "*** -[__NSArray0 objectAtIndex:]: index 100 beyond bounds for empty NSArray",
+        "crash_cause": "-[IBGObjcException throwExceptionPrivate]",
+        "crash_type": "CRASH",
+        "platform": "IOS",
+        "tags": [1319714, 1283565, 1283562, 1283564, 1284221, 1283563],
+        "current_view": "IBGCPPExcpetionsTableViewController",
+        "team": {
+          "name": "Bookings",
+          "id": "01GW4NPTK886KHWSN3V3W2NG9Z"
+        },
+        "app_version": " ()",
+        "first_occurred": 1664191004000,
+        "signals": [],
+        "exception_name": "NSRangeException"
+      }
+    ],
+    "pagination_token": null,
+    "count": 5
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "url": "/graphql",
+  "method": "POST",
+  "delay": 1000,
+  "status": 200,
+  "response": {
+    "data": {
+      "application": {
+        "experiments": {
+          "info": [
+            { 
+              "name": "Hello Experiment 3",
+              "type": "multi-variants", 
+              "variants_count": 2, 
+              "variants": [
+                "Hello Experiment 7",
+                "Hello Experiment 6",
+                "Hello Experiment 555555555555555555555555555555555555555555",
+                "Hello Experiment 4",
+                "Hello Experiment 33333333333333333333333333333333333333333333333333333333333",
+                "Hello Experiment 1", 
+                "Hello Experiment 2"
+              ]
+            }
+          ],
+          "total_count": 110,
+          
+          "list": [
+            {
+              "name": "Hello Experiment 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1708102654877,
+              "variants_count": 0
+            },
+            {
+              "name": "Hello Experiment 2",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1708202654877,
+              "variants_count": 1
+            },
+            {
+              "name": "Hello Experiment 3",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1708302654877,
+              "variants_count": 2
+            },
+            {
+              "name": "Hello Experiment 4",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1708402654877,
+              "variants_count": 3
+            },
+            {
+              "name": "Hello Experiment 5",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1708502654877,
+              "variants_count": 4
+            },
+            {
+              "name": "Hello Experiment 6",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1708602654877,
+              "variants_count": 5
+            },
+            {
+              "name": "Hello Experiment 7",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1708702654877,
+              "variants_count": 6
+            },
+            {
+              "name": "Hello Experiment 8",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1708802654877,
+              "variants_count": 7
+            },
+            {
+              "name": "Hello Experiment 9",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1708902654877,
+              "variants_count": 8
+            },
+            {
+              "name": "Hello Experiment 10",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1709002654877,
+              "variants_count": 9
+            },
+            {
+              "name": "Hello Experiment 11",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1709102654877,
+              "variants_count": 10
+            },
+            {
+              "name": "Hello Experiment 12",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1709202654877,
+              "variants_count": 11
+            },
+            {
+              "name": "Hello Experiment 13",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1709302654877,
+              "variants_count": 12
+            },
+            {
+              "name": "Hello Experiment 14",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1709402654877,
+              "variants_count": 13
+            },
+            {
+              "name": "Hello Experiment 15",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1709502654877,
+              "variants_count": 14
+            },
+            {
+              "name": "Hello Experiment 16",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1709602654877,
+              "variants_count": 15
+            },
+            {
+              "name": "Hello Experiment 17",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1709702654877,
+              "variants_count": 16
+            },
+            {
+              "name": "Hello Experiment 18",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1709802654877,
+              "variants_count": 17
+            },
+            {
+              "name": "Hello Experiment 19",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1709902654877,
+              "variants_count": 18
+            },
+            {
+              "name": "Hello Experiment 20",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 50122,
+              "first_seen": 1710002654877,
+              "variants_count": 19
+            }
+          ],
+          "variants_list": [
+            {
+              "variant_name": "Hello Experiment 1",
+              "apdex": 0.834,
+              "crash_free_sessions": 89.123,
+              "crash_free_users": 79.567,
+              "user_termination_free_sessions": 93.567,
+              "app_hangs_free_sessions": 68.567,
+              "sessions": 50122,
+              "first_seen": 1708102654877,
+              "variants_count": 0
+            },
+            {
+              "variant_name": "Hello Experiment 2",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 99.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 98.567,
+              "sessions": 40122,
+              "first_seen": 1708202654877,
+              "variants_count": 1
+            },
+            {
+              "variant_name": "Hello Experiment 33333333333333333333333333333333333333333333333333333333333",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 96.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 92.567,
+              "sessions": 40122,
+              "first_seen": 1708202654877,
+              "variants_count": 1
+            },
+            {
+              "variant_name": "Hello Experiment 4",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 96.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 92.567,
+              "sessions": 40122,
+              "first_seen": 1708202654877,
+              "variants_count": 1
+            },
+            {
+              "variant_name": "Hello Experiment 555555555555555555555555555555555555555555",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 96.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 92.567,
+              "sessions": 40122,
+              "first_seen": 1708202654877,
+              "variants_count": 1
+            },
+            {
+              "variant_name": "Hello Experiment 6",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 96.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 92.567,
+              "sessions": 40122,
+              "first_seen": 1708202654877,
+              "variants_count": 1
+            },
+            {
+              "variant_name": "Hello Experiment 7",
+              "apdex": 0.934,
+              "crash_free_sessions": 99.123,
+              "crash_free_users": 96.567,
+              "user_termination_free_sessions": 97.567,
+              "app_hangs_free_sessions": 92.567,
+              "sessions": 40122,
+              "first_seen": 1708202654877,
+              "variants_count": 1
+            }
+          ]
+        },
+        "users": {
+          "crash_free_percent": 99.567
+        },
+        "session": {
+          "apdex": 0.322,
+          "count": 150122,
+          "crashing": 850,
+          "user_termination": 4431,
+          "app_hangs": 220
+        }
+      }
+    }
+	}
+}

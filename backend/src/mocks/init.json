@@ -1,0 +1,3587 @@
+{
+  "url": "/api/web/applications/:slug/:mode/rules/init",
+  "method": "GET",
+  "delay": 1000,
+  "status": 200,
+  "response": {
+    "Bugs": {
+      "actions": [
+        {
+          "key": "reply_to_user",
+          "name": "Reply to user",
+          "values": []
+        },
+        {
+          "key": "set_assignee",
+          "name": "Assign to Member",
+          "values": [
+            {
+              "id": -1,
+              "name": "N/A"
+            },
+            {
+              "id": 182205,
+              "name": "Nouran"
+            },
+            {
+              "id": 254426,
+              "name": "Osama"
+            },
+            {
+              "id": 263529,
+              "name": "Ashrakat"
+            },
+            {
+              "id": 265003,
+              "name": "Nahla"
+            },
+            {
+              "id": 265052,
+              "name": "YoussefMahmoud"
+            },
+            {
+              "id": 266105,
+              "name": "Mostafa Megahid"
+            },
+            {
+              "id": 267096,
+              "name": "geemeows"
+            },
+            {
+              "id": 267920,
+              "name": "Omar Kamel"
+            },
+            {
+              "id": 268592,
+              "name": "grafana"
+            }
+          ]
+        },
+        {
+          "key": "set_status",
+          "name": "Change its status to",
+          "values": [
+            {
+              "name": "New",
+              "color": "#f8a08f",
+              "id": 1
+            },
+            {
+              "name": "In-progress",
+              "color": "#ffdd7f",
+              "id": 3
+            },
+            {
+              "name": "Closed",
+              "color": "#7fdfb1",
+              "id": 2
+            }
+          ]
+        },
+        {
+          "key": "set_priority",
+          "name": "Change its priority to",
+          "values": [
+            {
+              "id": -1,
+              "name": "N/A",
+              "icon": "sp-n-a"
+            },
+            {
+              "id": 1,
+              "name": "Trivial",
+              "icon": "sp-trivial"
+            },
+            {
+              "id": 2,
+              "name": "Minor",
+              "icon": "sp-minor"
+            },
+            {
+              "id": 3,
+              "name": "Major",
+              "icon": "sp-major"
+            },
+            {
+              "id": 4,
+              "name": "Blocker",
+              "icon": "sp-blocker"
+            }
+          ]
+        },
+        {
+          "key": "add_tag",
+          "name": "Tag it with",
+          "values": []
+        },
+        {
+          "key": "delete",
+          "name": "Delete it",
+          "values": []
+        },
+        {
+          "key": "send_email",
+          "name": "Send email to",
+          "values": []
+        }
+      ],
+      "conditions": [
+        {
+          "key": "title",
+          "name": "Title",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            },
+            {
+              "key": "Contains",
+              "value": 3
+            },
+            {
+              "key": "Doesn't contain",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 0
+        },
+        {
+          "key": "email",
+          "name": "Reporter's email",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            },
+            {
+              "key": "Contains",
+              "value": 3
+            },
+            {
+              "key": "Doesn't contain",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 1
+        },
+        {
+          "key": "app_version",
+          "name": "App version",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            },
+            {
+              "key": "Contains",
+              "value": 3
+            },
+            {
+              "key": "Doesn't contain",
+              "value": 2
+            },
+            {
+              "key": "Greater than",
+              "value": 5
+            },
+            {
+              "key": "Less than",
+              "value": 4
+            }
+          ],
+          "time": [],
+          "order": 2
+        },
+        {
+          "key": "current_view",
+          "name": "Current view",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals any of",
+              "value": 1
+            },
+            {
+              "key": "Doesn’t Equal any of",
+              "value": 0
+            },
+            {
+              "key": "Contains any of",
+              "value": 3
+            },
+            {
+              "key": "Doesn’t Contain any of",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 3
+        },
+        {
+          "key": "category",
+          "name": "Categories",
+          "values": [
+            {
+              "id": "Report a Problem",
+              "name": "Report a bug"
+            },
+            {
+              "id": "Suggest an Improvement",
+              "name": "Suggest an improvement"
+            },
+            {
+              "id": "Ask a Question",
+              "name": "Ask a question"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Include",
+              "value": 3
+            },
+            {
+              "key": "Don't include",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 4
+        },
+        {
+          "key": "tags",
+          "name": "Tags",
+          "values": [
+            {
+              "id": 1561629,
+              "name": "Tag 1"
+            },
+            {
+              "id": 1561630,
+              "name": "Tag 2"
+            },
+            {
+              "id": 1561631,
+              "name": "Tag 3"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Include",
+              "value": 3
+            },
+            {
+              "key": "Don't include",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 5
+        },
+        {
+          "key": "device",
+          "name": "Device",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            },
+            {
+              "key": "Contains",
+              "value": 3
+            },
+            {
+              "key": "Doesn't contain",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 6
+        },
+        {
+          "key": "status",
+          "name": "Status",
+          "values": [
+            {
+              "name": "New",
+              "color": "#f8a08f",
+              "id": 1
+            },
+            {
+              "name": "In-progress",
+              "color": "#ffdd7f",
+              "id": 3
+            },
+            {
+              "name": "Closed",
+              "color": "#7fdfb1",
+              "id": 2
+            }
+          ],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            }
+          ],
+          "time": [],
+          "order": 7
+        },
+        {
+          "key": "priority",
+          "name": "Priority",
+          "values": [
+            {
+              "id": -1,
+              "name": "N/A",
+              "icon": "sp-n-a"
+            },
+            {
+              "id": 1,
+              "name": "Trivial",
+              "icon": "sp-trivial"
+            },
+            {
+              "id": 2,
+              "name": "Minor",
+              "icon": "sp-minor"
+            },
+            {
+              "id": 3,
+              "name": "Major",
+              "icon": "sp-major"
+            },
+            {
+              "id": 4,
+              "name": "Blocker",
+              "icon": "sp-blocker"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            }
+          ],
+          "time": [],
+          "order": 8
+        },
+        {
+          "key": "assignee",
+          "name": "Assignee",
+          "values": [
+            {
+              "id": -1,
+              "name": "N/A"
+            },
+            {
+              "id": 182205,
+              "name": "Nouran"
+            },
+            {
+              "id": 254426,
+              "name": "Osama"
+            },
+            {
+              "id": 263529,
+              "name": "Ashrakat"
+            },
+            {
+              "id": 265003,
+              "name": "Nahla"
+            },
+            {
+              "id": 265052,
+              "name": "YoussefMahmoud"
+            },
+            {
+              "id": 266105,
+              "name": "Mostafa Megahid"
+            },
+            {
+              "id": 267096,
+              "name": "geemeows"
+            },
+            {
+              "id": 267920,
+              "name": "Omar Kamel"
+            },
+            {
+              "id": 268592,
+              "name": "grafana"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            }
+          ],
+          "time": [],
+          "order": 9
+        },
+        {
+          "key": "os",
+          "name": "OS",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            },
+            {
+              "key": "Contains",
+              "value": 3
+            },
+            {
+              "key": "Doesn't contain",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 10
+        },
+        {
+          "key": "country",
+          "name": "Country",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            },
+            {
+              "key": "Contains",
+              "value": 3
+            },
+            {
+              "key": "Doesn't contain",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 11
+        },
+        {
+          "key": "city",
+          "name": "City",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            },
+            {
+              "key": "Contains",
+              "value": 3
+            },
+            {
+              "key": "Doesn't contain",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 12
+        },
+        {
+          "key": "user_attributes",
+          "name": "User Attributes",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            },
+            {
+              "key": "Contains",
+              "value": 3
+            },
+            {
+              "key": "Doesn't contain",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 13
+        }
+      ],
+      "triggers": [
+        {
+          "key": "Bug is reported",
+          "value": "reported",
+          "additional_conditions": [],
+          "trigger_options": []
+        },
+        {
+          "key": "Status changes",
+          "value": "changed_status",
+          "additional_conditions": [],
+          "trigger_options": []
+        },
+        {
+          "key": "Assignee changes",
+          "value": "changed_assignee",
+          "additional_conditions": [],
+          "trigger_options": []
+        },
+        {
+          "key": "Priority changes",
+          "value": "changed_priority",
+          "additional_conditions": [],
+          "trigger_options": []
+        },
+        {
+          "key": "Tag is added",
+          "value": "tag_added",
+          "additional_conditions": [],
+          "trigger_options": []
+        }
+      ]
+    },
+    "Crashes": {
+      "actions": [
+        {
+          "key": "set_team",
+          "name": "Assign to Team",
+          "values": []
+        },
+        {
+          "key": "set_assignee",
+          "name": "Assign to Member",
+          "values": [
+            {
+              "id": -1,
+              "name": "N/A"
+            },
+            {
+              "id": 182205,
+              "name": "Nouran"
+            },
+            {
+              "id": 254426,
+              "name": "Osama"
+            },
+            {
+              "id": 263529,
+              "name": "Ashrakat"
+            },
+            {
+              "id": 265003,
+              "name": "Nahla"
+            },
+            {
+              "id": 265052,
+              "name": "YoussefMahmoud"
+            },
+            {
+              "id": 266105,
+              "name": "Mostafa Megahid"
+            },
+            {
+              "id": 267096,
+              "name": "geemeows"
+            },
+            {
+              "id": 267920,
+              "name": "Omar Kamel"
+            },
+            {
+              "id": 268592,
+              "name": "grafana"
+            }
+          ]
+        },
+        {
+          "key": "set_status",
+          "name": "Change its status to",
+          "values": [
+            {
+              "name": "New",
+              "color": "#f8a08f",
+              "id": 1
+            },
+            {
+              "name": "In-progress",
+              "color": "#ffdd7f",
+              "id": 3
+            },
+            {
+              "name": "Closed",
+              "color": "#7fdfb1",
+              "id": 2
+            }
+          ]
+        },
+        {
+          "key": "set_priority",
+          "name": "Change its priority to",
+          "values": [
+            {
+              "id": -1,
+              "name": "N/A",
+              "icon": "sp-n-a"
+            },
+            {
+              "id": 1,
+              "name": "Trivial",
+              "icon": "sp-trivial"
+            },
+            {
+              "id": 2,
+              "name": "Minor",
+              "icon": "sp-minor"
+            },
+            {
+              "id": 3,
+              "name": "Major",
+              "icon": "sp-major"
+            },
+            {
+              "id": 4,
+              "name": "Blocker",
+              "icon": "sp-blocker"
+            }
+          ]
+        },
+        {
+          "key": "add_tag",
+          "name": "Tag it with",
+          "values": []
+        },
+        {
+          "key": "send_email",
+          "name": "Send email to",
+          "values": [
+            {
+              "key": "all",
+              "name": "All team members"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "key": "exception_message",
+          "name": "Exception message",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals any of",
+              "value": 1
+            },
+            {
+              "key": "Doesn’t Equal any of",
+              "value": 0
+            },
+            {
+              "key": "Contains any of",
+              "value": 3
+            },
+            {
+              "key": "Doesn’t Contain any of",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 1
+        },
+        {
+          "key": "user_attributes",
+          "name": "User Attributes",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            },
+            {
+              "key": "Contains",
+              "value": 3
+            },
+            {
+              "key": "Doesn't contain",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 14
+        },
+        {
+          "key": "email",
+          "name": "Reporter's email",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            },
+            {
+              "key": "Contains",
+              "value": 3
+            },
+            {
+              "key": "Doesn't contain",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 19
+        },
+        {
+          "key": "app_version",
+          "name": "App version",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            },
+            {
+              "key": "Contains",
+              "value": 3
+            },
+            {
+              "key": "Doesn't contain",
+              "value": 2
+            },
+            {
+              "key": "Greater than",
+              "value": 5
+            },
+            {
+              "key": "Less than",
+              "value": 4
+            }
+          ],
+          "time": [],
+          "order": 22,
+          "is_disabled": true
+        },
+        {
+          "key": "current_view",
+          "name": "Current view",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals any of",
+              "value": 1
+            },
+            {
+              "key": "Doesn’t Equal any of",
+              "value": 0
+            },
+            {
+              "key": "Contains any of",
+              "value": 3
+            },
+            {
+              "key": "Doesn’t Contain any of",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 13
+        },
+        {
+          "key": "tags",
+          "name": "Tags",
+          "values": [
+            {
+              "id": 1561629,
+              "name": "Tag 1"
+            },
+            {
+              "id": 1561630,
+              "name": "Tag 2"
+            },
+            {
+              "id": 1561631,
+              "name": "Tag 3"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Include",
+              "value": 3
+            },
+            {
+              "key": "Don't include",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 7
+        },
+        {
+          "key": "status",
+          "name": "Status",
+          "values": [
+            {
+              "name": "New",
+              "color": "#f8a08f",
+              "id": 1
+            },
+            {
+              "name": "In-progress",
+              "color": "#ffdd7f",
+              "id": 3
+            },
+            {
+              "name": "Closed",
+              "color": "#7fdfb1",
+              "id": 2
+            }
+          ],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            }
+          ],
+          "time": [],
+          "order": 8
+        },
+        {
+          "key": "priority",
+          "name": "Priority",
+          "values": [
+            {
+              "id": -1,
+              "name": "N/A",
+              "icon": "sp-n-a"
+            },
+            {
+              "id": 1,
+              "name": "Trivial",
+              "icon": "sp-trivial"
+            },
+            {
+              "id": 2,
+              "name": "Minor",
+              "icon": "sp-minor"
+            },
+            {
+              "id": 3,
+              "name": "Major",
+              "icon": "sp-major"
+            },
+            {
+              "id": 4,
+              "name": "Blocker",
+              "icon": "sp-blocker"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            }
+          ],
+          "time": [],
+          "order": 10
+        },
+        {
+          "key": "assignee",
+          "name": "Assignee",
+          "values": [
+            {
+              "id": -1,
+              "name": "N/A"
+            },
+            {
+              "id": 182205,
+              "name": "Nouran"
+            },
+            {
+              "id": 254426,
+              "name": "Osama"
+            },
+            {
+              "id": 263529,
+              "name": "Ashrakat"
+            },
+            {
+              "id": 265003,
+              "name": "Nahla"
+            },
+            {
+              "id": 265052,
+              "name": "YoussefMahmoud"
+            },
+            {
+              "id": 266105,
+              "name": "Mostafa Megahid"
+            },
+            {
+              "id": 267096,
+              "name": "geemeows"
+            },
+            {
+              "id": 267920,
+              "name": "Omar Kamel"
+            },
+            {
+              "id": 268592,
+              "name": "grafana"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            }
+          ],
+          "time": [],
+          "order": 9
+        },
+        {
+          "key": "device",
+          "name": "Device",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            },
+            {
+              "key": "Contains",
+              "value": 3
+            },
+            {
+              "key": "Doesn't contain",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 15
+        },
+        {
+          "key": "os",
+          "name": "OS",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            },
+            {
+              "key": "Contains",
+              "value": 3
+            },
+            {
+              "key": "Doesn't contain",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 16
+        },
+        {
+          "key": "country",
+          "name": "Country",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            },
+            {
+              "key": "Contains",
+              "value": 3
+            },
+            {
+              "key": "Doesn't contain",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 20
+        },
+        {
+          "key": "city",
+          "name": "City",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            },
+            {
+              "key": "Contains",
+              "value": 3
+            },
+            {
+              "key": "Doesn't contain",
+              "value": 2
+            }
+          ],
+          "time": [],
+          "order": 21
+        },
+        {
+          "key": "crash_type",
+          "name": "Crash Type",
+          "values": [
+            {
+              "id": 0,
+              "name": "Crash"
+            },
+            {
+              "id": 1,
+              "name": "Non-Fatal"
+            },
+            {
+              "id": 2,
+              "name": "ANR"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            }
+          ],
+          "time": [],
+          "order": 6
+        },
+        {
+          "key": "experiments",
+          "name": "Experiments",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            }
+          ],
+          "time": [],
+          "order": 17
+        },
+        {
+          "key": "app_status",
+          "name": "App Status",
+          "values": [
+            {
+              "id": "foreground",
+              "name": "Foreground"
+            },
+            {
+              "id": "background",
+              "name": "Background"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            },
+            {
+              "key": "Doesn't equal",
+              "value": 0
+            }
+          ],
+          "time": [],
+          "order": 18
+        },
+        {
+          "key": "app_version_v2",
+          "name": "App version",
+          "values": [],
+          "operators": [
+            {
+              "key": "Is one of",
+              "value": 8
+            },
+            {
+              "key": "Is not one of",
+              "value": 9
+            },
+            {
+              "key": "Greater than",
+              "value": 5
+            },
+            {
+              "key": "Less than",
+              "value": 4
+            }
+          ],
+          "time": [],
+          "order": 0
+        }
+      ],
+      "triggers": [
+        {
+          "key": "A crash is first seen",
+          "value": "crash_reported",
+          "additional_conditions": [
+            {
+              "key": "package",
+              "name": "Package",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Matches any of",
+                  "value": 6
+                },
+                {
+                  "key": "Doesn’t Match any of",
+                  "value": 7
+                }
+              ],
+              "time": [],
+              "order": 4
+            },
+            {
+              "key": "filename",
+              "name": "Filename",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Equals any of",
+                  "value": 1
+                },
+                {
+                  "key": "Doesn’t Equal any of",
+                  "value": 0
+                },
+                {
+                  "key": "Contains any of",
+                  "value": 3
+                },
+                {
+                  "key": "Doesn’t Contain any of",
+                  "value": 2
+                }
+              ],
+              "time": [],
+              "order": 5
+            }
+          ],
+          "time": [],
+          "trigger_options": []
+        },
+        {
+          "key": "A new occurrence on an existing crash",
+          "value": "occurrence_reported",
+          "additional_conditions": [
+            {
+              "key": "occurrences_count",
+              "name": "Total occurrences count",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                }
+              ],
+              "time": [],
+              "order": 12
+            },
+            {
+              "key": "affected_users",
+              "name": "Total affected users",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                }
+              ],
+              "time": [],
+              "order": 11
+            },
+            {
+              "key": "team",
+              "name": "Team",
+              "values": [
+                {
+                  "id": "",
+                  "name": "N/A"
+                }
+              ],
+              "operators": [],
+              "time": [],
+              "order": 2
+            },
+            {
+              "key": "package",
+              "name": "Package",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Matches any of",
+                  "value": 6
+                },
+                {
+                  "key": "Doesn’t Match any of",
+                  "value": 7
+                }
+              ],
+              "time": [],
+              "order": 4
+            },
+            {
+              "key": "filename",
+              "name": "Filename",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Equals any of",
+                  "value": 1
+                },
+                {
+                  "key": "Doesn’t Equal any of",
+                  "value": 0
+                },
+                {
+                  "key": "Contains any of",
+                  "value": 3
+                },
+                {
+                  "key": "Doesn’t Contain any of",
+                  "value": 2
+                }
+              ],
+              "time": [],
+              "order": 5
+            }
+          ],
+          "time": [],
+          "trigger_options": []
+        },
+        {
+          "key": "A closed crash is reactivated on a newer app version",
+          "value": "crash_reopened",
+          "additional_conditions": [
+            {
+              "key": "occurrences_count",
+              "name": "Total occurrences count",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                }
+              ],
+              "time": [],
+              "order": 12
+            },
+            {
+              "key": "affected_users",
+              "name": "Total affected users",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                }
+              ],
+              "time": [],
+              "order": 11
+            },
+            {
+              "key": "team",
+              "name": "Team",
+              "values": [
+                {
+                  "id": "",
+                  "name": "N/A"
+                }
+              ],
+              "operators": [],
+              "time": [],
+              "order": 2
+            },
+            {
+              "key": "package",
+              "name": "Package",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Matches any of",
+                  "value": 6
+                },
+                {
+                  "key": "Doesn’t Match any of",
+                  "value": 7
+                }
+              ],
+              "time": [],
+              "order": 4
+            },
+            {
+              "key": "filename",
+              "name": "Filename",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Equals any of",
+                  "value": 1
+                },
+                {
+                  "key": "Doesn’t Equal any of",
+                  "value": 0
+                },
+                {
+                  "key": "Contains any of",
+                  "value": 3
+                },
+                {
+                  "key": "Doesn’t Contain any of",
+                  "value": 2
+                }
+              ],
+              "time": [],
+              "order": 5
+            }
+          ],
+          "time": [],
+          "trigger_options": []
+        },
+        {
+          "key": "Number of occurrences within {time}",
+          "value": "occurrences_count_in_time",
+          "additional_conditions": [
+            {
+              "key": "occurrences_count",
+              "name": "Total occurrences count",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                }
+              ],
+              "time": [],
+              "order": 12
+            },
+            {
+              "key": "affected_users",
+              "name": "Total affected users",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                }
+              ],
+              "time": [],
+              "order": 11
+            },
+            {
+              "key": "team",
+              "name": "Team",
+              "values": [
+                {
+                  "id": "",
+                  "name": "N/A"
+                }
+              ],
+              "operators": [],
+              "time": [],
+              "order": 2
+            },
+            {
+              "key": "package",
+              "name": "Package",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Matches any of",
+                  "value": 6
+                },
+                {
+                  "key": "Doesn’t Match any of",
+                  "value": 7
+                }
+              ],
+              "time": [],
+              "order": 4
+            },
+            {
+              "key": "filename",
+              "name": "Filename",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Equals any of",
+                  "value": 1
+                },
+                {
+                  "key": "Doesn’t Equal any of",
+                  "value": 0
+                },
+                {
+                  "key": "Contains any of",
+                  "value": 3
+                },
+                {
+                  "key": "Doesn’t Contain any of",
+                  "value": 2
+                }
+              ],
+              "time": [],
+              "order": 5
+            }
+          ],
+          "time": [
+            {
+              "key": "At any time",
+              "value": 1
+            },
+            {
+              "key": "Within 5 mins",
+              "value": 2
+            },
+            {
+              "key": "Within 10 mins",
+              "value": 3
+            },
+            {
+              "key": "Within 1 hour",
+              "value": 4
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 5
+            },
+            {
+              "key": "Within 1 day",
+              "value": 6
+            },
+            {
+              "key": "Within 7 days",
+              "value": 7
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "occurrences_count",
+              "value": "Greater than"
+            }
+          ]
+        },
+        {
+          "key": "Number of affected users within {time}",
+          "value": "affected_users_in_time",
+          "additional_conditions": [
+            {
+              "key": "occurrences_count",
+              "name": "Total occurrences count",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                }
+              ],
+              "time": [],
+              "order": 12
+            },
+            {
+              "key": "affected_users",
+              "name": "Total affected users",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                }
+              ],
+              "time": [],
+              "order": 11
+            },
+            {
+              "key": "team",
+              "name": "Team",
+              "values": [
+                {
+                  "id": "",
+                  "name": "N/A"
+                }
+              ],
+              "operators": [],
+              "time": [],
+              "order": 2
+            },
+            {
+              "key": "package",
+              "name": "Package",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Matches any of",
+                  "value": 6
+                },
+                {
+                  "key": "Doesn’t Match any of",
+                  "value": 7
+                }
+              ],
+              "time": [],
+              "order": 4
+            },
+            {
+              "key": "filename",
+              "name": "Filename",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Equals any of",
+                  "value": 1
+                },
+                {
+                  "key": "Doesn’t Equal any of",
+                  "value": 0
+                },
+                {
+                  "key": "Contains any of",
+                  "value": 3
+                },
+                {
+                  "key": "Doesn’t Contain any of",
+                  "value": 2
+                }
+              ],
+              "time": [],
+              "order": 5
+            }
+          ],
+          "time": [
+            {
+              "key": "At any time",
+              "value": 1
+            },
+            {
+              "key": "Within 5 mins",
+              "value": 2
+            },
+            {
+              "key": "Within 10 mins",
+              "value": 3
+            },
+            {
+              "key": "Within 1 hour",
+              "value": 4
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 5
+            },
+            {
+              "key": "Within 1 day",
+              "value": 6
+            },
+            {
+              "key": "Within 7 days",
+              "value": 7
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "affected_users",
+              "value": "Greater than"
+            }
+          ]
+        },
+        {
+          "key": "Number of occurrences and affected users within {time}",
+          "value": "occurrences_and_affected_users_count_in_time",
+          "additional_conditions": [
+            {
+              "key": "occurrences_count",
+              "name": "Total occurrences count",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                }
+              ],
+              "time": [],
+              "order": 12
+            },
+            {
+              "key": "affected_users",
+              "name": "Total affected users",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                }
+              ],
+              "time": [],
+              "order": 11
+            },
+            {
+              "key": "team",
+              "name": "Team",
+              "values": [
+                {
+                  "id": "",
+                  "name": "N/A"
+                }
+              ],
+              "operators": [],
+              "time": [],
+              "order": 2
+            },
+            {
+              "key": "package",
+              "name": "Package",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Matches any of",
+                  "value": 6
+                },
+                {
+                  "key": "Doesn’t Match any of",
+                  "value": 7
+                }
+              ],
+              "time": [],
+              "order": 4
+            },
+            {
+              "key": "filename",
+              "name": "Filename",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Equals any of",
+                  "value": 1
+                },
+                {
+                  "key": "Doesn’t Equal any of",
+                  "value": 0
+                },
+                {
+                  "key": "Contains any of",
+                  "value": 3
+                },
+                {
+                  "key": "Doesn’t Contain any of",
+                  "value": 2
+                }
+              ],
+              "time": [],
+              "order": 5
+            }
+          ],
+          "time": [
+            {
+              "key": "At any time",
+              "value": 1
+            },
+            {
+              "key": "Within 5 mins",
+              "value": 2
+            },
+            {
+              "key": "Within 10 mins",
+              "value": 3
+            },
+            {
+              "key": "Within 1 hour",
+              "value": 4
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 5
+            },
+            {
+              "key": "Within 1 day",
+              "value": 6
+            },
+            {
+              "key": "Within 7 days",
+              "value": 7
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "occurrences_count",
+              "value": "Occurrences Greater than"
+            },
+            {
+              "key": "affected_users",
+              "value": "Affected Users Greater than"
+            }
+          ]
+        },
+        {
+          "key": "A crash affects at least 1% of an app version's sessions in the last 24 hours",
+          "value": "velocity_alert",
+          "additional_conditions": [
+            {
+              "key": "occurrences_count",
+              "name": "Total occurrences count",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                }
+              ],
+              "time": [],
+              "order": 12
+            },
+            {
+              "key": "affected_users",
+              "name": "Total affected users",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                }
+              ],
+              "time": [],
+              "order": 11
+            },
+            {
+              "key": "team",
+              "name": "Team",
+              "values": [
+                {
+                  "id": "",
+                  "name": "N/A"
+                }
+              ],
+              "operators": [],
+              "time": [],
+              "order": 2
+            },
+            {
+              "key": "package",
+              "name": "Package",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Matches any of",
+                  "value": 6
+                },
+                {
+                  "key": "Doesn’t Match any of",
+                  "value": 7
+                }
+              ],
+              "time": [],
+              "order": 4
+            },
+            {
+              "key": "filename",
+              "name": "Filename",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Equals any of",
+                  "value": 1
+                },
+                {
+                  "key": "Doesn’t Equal any of",
+                  "value": 0
+                },
+                {
+                  "key": "Contains any of",
+                  "value": 3
+                },
+                {
+                  "key": "Doesn’t Contain any of",
+                  "value": 2
+                }
+              ],
+              "time": [],
+              "order": 5
+            }
+          ],
+          "time": [],
+          "trigger_options": []
+        },
+        {
+          "key": "A crash is accelerating",
+          "value": "accelerating_crash",
+          "additional_conditions": [
+            {
+              "key": "occurrences_count",
+              "name": "Total occurrences count",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                }
+              ],
+              "time": [],
+              "order": 12
+            },
+            {
+              "key": "affected_users",
+              "name": "Total affected users",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                }
+              ],
+              "time": [],
+              "order": 11
+            },
+            {
+              "key": "team",
+              "name": "Team",
+              "values": [
+                {
+                  "id": "",
+                  "name": "N/A"
+                }
+              ],
+              "operators": [],
+              "time": [],
+              "order": 2
+            },
+            {
+              "key": "package",
+              "name": "Package",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Matches any of",
+                  "value": 6
+                },
+                {
+                  "key": "Doesn’t Match any of",
+                  "value": 7
+                }
+              ],
+              "time": [],
+              "order": 4
+            },
+            {
+              "key": "filename",
+              "name": "Filename",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Equals any of",
+                  "value": 1
+                },
+                {
+                  "key": "Doesn’t Equal any of",
+                  "value": 0
+                },
+                {
+                  "key": "Contains any of",
+                  "value": 3
+                },
+                {
+                  "key": "Doesn’t Contain any of",
+                  "value": 2
+                }
+              ],
+              "time": [],
+              "order": 5
+            }
+          ],
+          "time": [],
+          "trigger_options": []
+        }
+      ],
+      "frequencies": [
+        {
+          "key": 0,
+          "value": "Notify me once"
+        },
+        {
+          "key": 1,
+          "value": "Notify me once every 10 minutes"
+        },
+        {
+          "key": 2,
+          "value": "Notify me once every 30 minutes"
+        },
+        {
+          "key": 3,
+          "value": "Notify me once every hour"
+        },
+        {
+          "key": 4,
+          "value": "Notify me once every 3 hours"
+        },
+        {
+          "key": 5,
+          "value": "Notify me once every week"
+        }
+      ]
+    },
+    "Overall app": {
+      "actions": [
+        {
+          "key": "send_email",
+          "name": "Send email to",
+          "values": [
+            {
+              "key": "all",
+              "name": "All team members"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "key": "app_version",
+          "name": "App version",
+          "values": [],
+          "operators": [
+            {
+              "key": "Is one of",
+              "value": 8
+            }
+          ],
+          "time": [],
+          "order": 0
+        },
+        {
+          "key": "sessions_count",
+          "name": "Sessions count",
+          "values": [],
+          "operators": [
+            {
+              "key": "Greater than",
+              "value": 5
+            },
+            {
+              "key": "Less than",
+              "value": 4
+            }
+          ],
+          "time": [],
+          "order": 2
+        }
+      ],
+      "triggers": [
+        {
+          "key": "Crash-free sessions",
+          "value": "crash_free_session",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 24 hours",
+              "value": 24
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "crash_free_session",
+              "value": "Less than",
+              "unit": "%"
+            }
+          ]
+        },
+        {
+          "key": "Crash-free users in the last 24 hours",
+          "value": "crash_free_users_overall",
+          "additional_conditions": [
+            {
+              "key": "user_count",
+              "name": "User count",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                },
+                {
+                  "key": "Less than",
+                  "value": 4
+                }
+              ],
+              "time": [],
+              "order": 1
+            }
+          ],
+          "time": [],
+          "trigger_options": [
+            {
+              "key": "crash_free_users_overall",
+              "value": "Less than",
+              "unit": "%"
+            }
+          ]
+        },
+        {
+          "key": "Apdex change rate",
+          "value": "apdex_change_rate",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "apdex_change_rate",
+              "value": "Less than",
+              "unit": "%"
+            }
+          ]
+        },
+        {
+          "key": "Apdex",
+          "value": "apdex",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "apdex",
+              "value": "Less than"
+            }
+          ]
+        }
+      ]
+    },
+    "App launches": {
+      "actions": [
+        {
+          "key": "send_email",
+          "name": "Send email to",
+          "values": [
+            {
+              "key": "all",
+              "name": "All team members"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "key": "app_version",
+          "name": "App version",
+          "values": [],
+          "operators": [
+            {
+              "key": "Is one of",
+              "value": 8
+            }
+          ],
+          "time": [],
+          "order": 0
+        },
+        {
+          "key": "launch_type",
+          "name": "Launch type",
+          "values": [
+            {
+              "id": "cold",
+              "name": "Cold app launch"
+            },
+            {
+              "id": "hot",
+              "name": "Hot app launch"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            }
+          ],
+          "time": [],
+          "order": 1
+        },
+        {
+          "key": "key_metric",
+          "name": "Key metric",
+          "values": [
+            {
+              "id": "key_metric",
+              "name": "Key-metrics only"
+            },
+            {
+              "id": "non_key_metric",
+              "name": "Non key-metrics only"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            }
+          ],
+          "time": [],
+          "order": 2
+        },
+        {
+          "key": "count",
+          "name": "Count",
+          "values": [],
+          "operators": [
+            {
+              "key": "Greater than",
+              "value": 5
+            },
+            {
+              "key": "Less than",
+              "value": 4
+            }
+          ],
+          "time": [],
+          "order": 3
+        }
+      ],
+      "triggers": [
+        {
+          "key": "P95",
+          "value": "p95",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "p95",
+              "value": "Greater than",
+              "unit": "sec"
+            }
+          ]
+        },
+        {
+          "key": "P50",
+          "value": "p50",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "p50",
+              "value": "Greater than",
+              "unit": "sec"
+            }
+          ]
+        },
+        {
+          "key": "Apdex change rate",
+          "value": "apdex_change_rate",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "apdex_change_rate",
+              "value": "Less than",
+              "unit": "%"
+            }
+          ]
+        },
+        {
+          "key": "Apdex",
+          "value": "apdex",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "apdex",
+              "value": "Less than"
+            }
+          ]
+        }
+      ]
+    },
+    "Screen loading": {
+      "actions": [
+        {
+          "key": "send_email",
+          "name": "Send email to",
+          "values": [
+            {
+              "key": "all",
+              "name": "All team members"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "key": "app_version",
+          "name": "App version",
+          "values": [],
+          "operators": [
+            {
+              "key": "Is one of",
+              "value": 8
+            }
+          ],
+          "time": [],
+          "order": 0
+        },
+        {
+          "key": "trace_name",
+          "name": "Trace name",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals any of",
+              "value": 11
+            },
+            {
+              "key": "Doesn’t equal any of",
+              "value": 10
+            },
+            {
+              "key": "Contains any of",
+              "value": 13
+            },
+            {
+              "key": "Doesn’t contain any of",
+              "value": 12
+            }
+          ],
+          "time": [],
+          "order": 1
+        },
+        {
+          "key": "key_metric",
+          "name": "Key metric",
+          "values": [
+            {
+              "id": "key_metric",
+              "name": "Key-metrics only"
+            },
+            {
+              "id": "non_key_metric",
+              "name": "Non key-metrics only"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            }
+          ],
+          "time": [],
+          "order": 2
+        },
+        {
+          "key": "count",
+          "name": "Count",
+          "values": [],
+          "operators": [
+            {
+              "key": "Greater than",
+              "value": 5
+            },
+            {
+              "key": "Less than",
+              "value": 4
+            }
+          ],
+          "time": [],
+          "order": 3
+        }
+      ],
+      "triggers": [
+        {
+          "key": "P95",
+          "value": "p95",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "p95",
+              "value": "Greater than",
+              "unit": "sec"
+            }
+          ]
+        },
+        {
+          "key": "P50",
+          "value": "p50",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "p50",
+              "value": "Greater than",
+              "unit": "sec"
+            }
+          ]
+        },
+        {
+          "key": "Apdex change rate",
+          "value": "apdex_change_rate",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "apdex_change_rate",
+              "value": "Less than",
+              "unit": "%"
+            }
+          ]
+        },
+        {
+          "key": "Apdex",
+          "value": "apdex",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "apdex",
+              "value": "Less than"
+            }
+          ]
+        }
+      ]
+    },
+    "Network": {
+      "actions": [
+        {
+          "key": "send_email",
+          "name": "Send email to",
+          "values": [
+            {
+              "key": "all",
+              "name": "All team members"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "key": "app_version",
+          "name": "App version",
+          "values": [],
+          "operators": [
+            {
+              "key": "Is one of",
+              "value": 8
+            }
+          ],
+          "time": [],
+          "order": 0
+        },
+        {
+          "key": "trace_name",
+          "name": "Trace name",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals any of",
+              "value": 11
+            },
+            {
+              "key": "Doesn’t equal any of",
+              "value": 10
+            },
+            {
+              "key": "Contains any of",
+              "value": 13
+            },
+            {
+              "key": "Doesn’t contain any of",
+              "value": 12
+            }
+          ],
+          "time": [],
+          "order": 1
+        },
+        {
+          "key": "method",
+          "name": "Method",
+          "values": [
+            {
+              "id": "post",
+              "name": "POST"
+            },
+            {
+              "id": "get",
+              "name": "GET"
+            },
+            {
+              "id": "put",
+              "name": "PUT"
+            },
+            {
+              "id": "patch",
+              "name": "PATCH"
+            },
+            {
+              "id": "delete",
+              "name": "DELETE"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Is one of",
+              "value": 8
+            },
+            {
+              "key": "Isn’t any of",
+              "value": 9
+            }
+          ],
+          "time": [],
+          "order": 2
+        },
+        {
+          "key": "key_metric",
+          "name": "Key metric",
+          "values": [
+            {
+              "id": "key_metric",
+              "name": "Key-metrics only"
+            },
+            {
+              "id": "non_key_metric",
+              "name": "Non key-metrics only"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            }
+          ],
+          "time": [],
+          "order": 3
+        },
+        {
+          "key": "count",
+          "name": "Count",
+          "values": [],
+          "operators": [
+            {
+              "key": "Greater than",
+              "value": 5
+            },
+            {
+              "key": "Less than",
+              "value": 4
+            }
+          ],
+          "time": [],
+          "order": 4
+        }
+      ],
+      "triggers": [
+        {
+          "key": "P95",
+          "value": "p95",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "p95",
+              "value": "Greater than",
+              "unit": "sec"
+            }
+          ]
+        },
+        {
+          "key": "P50",
+          "value": "p50",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "p50",
+              "value": "Greater than",
+              "unit": "sec"
+            }
+          ]
+        },
+        {
+          "key": "Apdex change rate",
+          "value": "apdex_change_rate",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "apdex_change_rate",
+              "value": "Less than",
+              "unit": "%"
+            }
+          ]
+        },
+        {
+          "key": "Failure rate",
+          "value": "failure_rate",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "failure_rate",
+              "value": "Greater than",
+              "unit": "%"
+            }
+          ]
+        },
+        {
+          "key": "Apdex",
+          "value": "apdex",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "apdex",
+              "value": "Less than"
+            }
+          ]
+        }
+      ]
+    },
+    "Flows": {
+      "actions": [
+        {
+          "key": "send_email",
+          "name": "Send email to",
+          "values": [
+            {
+              "key": "all",
+              "name": "All team members"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "key": "app_version",
+          "name": "App version",
+          "values": [],
+          "operators": [
+            {
+              "key": "Is one of",
+              "value": 8
+            }
+          ],
+          "time": [],
+          "order": 0
+        },
+        {
+          "key": "trace_name",
+          "name": "Trace name",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals any of",
+              "value": 11
+            },
+            {
+              "key": "Doesn’t equal any of",
+              "value": 10
+            },
+            {
+              "key": "Contains any of",
+              "value": 13
+            },
+            {
+              "key": "Doesn’t contain any of",
+              "value": 12
+            }
+          ],
+          "time": [],
+          "order": 1
+        },
+        {
+          "key": "key_metric",
+          "name": "Key metric",
+          "values": [
+            {
+              "id": "key_metric",
+              "name": "Key-metrics only"
+            },
+            {
+              "id": "non_key_metric",
+              "name": "Non key-metrics only"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            }
+          ],
+          "time": [],
+          "order": 2
+        },
+        {
+          "key": "count",
+          "name": "Count",
+          "values": [],
+          "operators": [
+            {
+              "key": "Greater than",
+              "value": 5
+            },
+            {
+              "key": "Less than",
+              "value": 4
+            }
+          ],
+          "time": [],
+          "order": 3
+        }
+      ],
+      "triggers": [
+        {
+          "key": "P95",
+          "value": "p95",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "p95",
+              "value": "Greater than",
+              "unit": "sec"
+            }
+          ]
+        },
+        {
+          "key": "P50",
+          "value": "p50",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "p50",
+              "value": "Greater than",
+              "unit": "sec"
+            }
+          ]
+        },
+        {
+          "key": "Apdex change rate",
+          "value": "apdex_change_rate",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "apdex_change_rate",
+              "value": "Less than",
+              "unit": "%"
+            }
+          ]
+        },
+        {
+          "key": "Apdex",
+          "value": "apdex",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "apdex",
+              "value": "Less than"
+            }
+          ]
+        }
+      ]
+    },
+    "UI hangs": {
+      "actions": [
+        {
+          "key": "send_email",
+          "name": "Send email to",
+          "values": [
+            {
+              "key": "all",
+              "name": "All team members"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "key": "app_version",
+          "name": "App version",
+          "values": [],
+          "operators": [
+            {
+              "key": "Is one of",
+              "value": 8
+            }
+          ],
+          "time": [],
+          "order": 0
+        },
+        {
+          "key": "trace_name",
+          "name": "Trace name",
+          "values": [],
+          "operators": [
+            {
+              "key": "Equals any of",
+              "value": 11
+            },
+            {
+              "key": "Doesn’t equal any of",
+              "value": 10
+            },
+            {
+              "key": "Contains any of",
+              "value": 13
+            },
+            {
+              "key": "Doesn’t contain any of",
+              "value": 12
+            }
+          ],
+          "time": [],
+          "order": 1
+        },
+        {
+          "key": "key_metric",
+          "name": "Key metric",
+          "values": [
+            {
+              "id": "key_metric",
+              "name": "Key-metrics only"
+            },
+            {
+              "id": "non_key_metric",
+              "name": "Non key-metrics only"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Equals",
+              "value": 1
+            }
+          ],
+          "time": [],
+          "order": 2
+        },
+        {
+          "key": "count",
+          "name": "Count",
+          "values": [],
+          "operators": [
+            {
+              "key": "Greater than",
+              "value": 5
+            },
+            {
+              "key": "Less than",
+              "value": 4
+            }
+          ],
+          "time": [],
+          "order": 3
+        }
+      ],
+      "triggers": [
+        {
+          "key": "Apdex change rate",
+          "value": "apdex_change_rate",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "apdex_change_rate",
+              "value": "Less than",
+              "unit": "%"
+            }
+          ]
+        },
+        {
+          "key": "Apdex",
+          "value": "apdex",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            },
+            {
+              "key": "Within 7 days",
+              "value": 4
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "apdex",
+              "value": "Less than"
+            }
+          ]
+        }
+      ]
+    },
+    "Release rollout": {
+      "actions": [
+        {
+          "key": "change_release_status",
+          "name": "Change status to",
+          "values": [
+            {
+              "key": "release_all",
+              "id": "release_all",
+              "name": "Release to all"
+            },
+            {
+              "key": "halt",
+              "id": "halt",
+              "name": "Halt / Pause"
+            }
+          ]
+        },
+        {
+          "key": "send_email",
+          "name": "Send email to",
+          "values": [
+            {
+              "key": "all",
+              "name": "All team members"
+            },
+            {
+              "key": "all_admins_and_owners",
+              "name": "All admins and owners"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "key": "adoption_percentage",
+          "name": "Version adoption percentage",
+          "values": [],
+          "operators": [
+            {
+              "key": "Greater than",
+              "value": 5
+            },
+            {
+              "key": "Less than",
+              "value": 4
+            }
+          ],
+          "time": [],
+          "unit": "%",
+          "order": 0
+        },
+        {
+          "key": "rollout_percentage",
+          "name": "Version rollout percentage",
+          "values": [],
+          "operators": [
+            {
+              "key": "Greater than",
+              "value": 5
+            },
+            {
+              "key": "Less than",
+              "value": 4
+            }
+          ],
+          "time": [],
+          "unit": "%",
+          "order": 1
+        }
+      ],
+      "triggers": [
+        {
+          "key": "Apdex",
+          "value": "apdex",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 1 hour",
+              "value": 1
+            },
+            {
+              "key": "Within 3 hours",
+              "value": 2
+            },
+            {
+              "key": "Within 1 day",
+              "value": 3
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "apdex",
+              "value": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                },
+                {
+                  "key": "Less than",
+                  "value": 4
+                }
+              ],
+              "rollout_app_version": [
+                {
+                  "key": "All active releases",
+                  "value": "all"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "Crash-free sessions",
+          "value": "crash_free_session",
+          "additional_conditions": [],
+          "time": [
+            {
+              "key": "Within 6 hours",
+              "value": 4
+            },
+            {
+              "key": "Within 12 hours",
+              "value": 5
+            },
+            {
+              "key": "Within 24 hours",
+              "value": 6
+            }
+          ],
+          "trigger_options": [
+            {
+              "key": "crash_free_session",
+              "value": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                },
+                {
+                  "key": "Less than",
+                  "value": 4
+                }
+              ],
+              "rollout_app_version": [
+                {
+                  "key": "All active releases",
+                  "value": "all"
+                }
+              ],
+              "unit": "%"
+            }
+          ]
+        },
+        {
+          "key": "Version rating",
+          "value": "version_rating",
+          "additional_conditions": [
+            {
+              "key": "reviews_count",
+              "name": "Number of reviews",
+              "values": [],
+              "operators": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                }
+              ],
+              "time": [],
+              "order": -1
+            }
+          ],
+          "time": [],
+          "trigger_options": [
+            {
+              "key": "version_rating",
+              "value": [
+                {
+                  "key": "Greater than",
+                  "value": 5
+                },
+                {
+                  "key": "Less than",
+                  "value": 4
+                }
+              ],
+              "rollout_app_version": [
+                {
+                  "key": "All active releases",
+                  "value": "all"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "Rollout status change",
+          "value": "rollout_status_change",
+          "additional_conditions": [
+            {
+              "key": "rollout_status",
+              "name": "Rollout status",
+              "values": [
+                {
+                  "id": "started",
+                  "name": "Started"
+                },
+                {
+                  "id": "halted",
+                  "name": "Halted / Paused"
+                },
+                {
+                  "id": "resumed",
+                  "name": "Resumed"
+                },
+                {
+                  "id": "completed",
+                  "name": "Completed"
+                }
+              ],
+              "operators": [
+                {
+                  "key": "Is one of",
+                  "value": 8
+                }
+              ],
+              "time": [],
+              "order": -1
+            }
+          ],
+          "time": [],
+          "trigger_options": []
+        },
+        {
+          "key": "Rollout percentage change",
+          "value": "rollout_percentage_change",
+          "additional_conditions": [],
+          "time": [],
+          "trigger_options": []
+        },
+        {
+          "key": "Daily rollout summary",
+          "value": "rollout_daily_summary",
+          "additional_conditions": [],
+          "time": [],
+          "trigger_options": []
+        }
+      ]
+    },
+    "Features & Experiments": {
+      "actions": [
+        {
+          "key": "turn_off_using_launch_darkly",
+          "name": "Turn off using Launchdarkly",
+          "values": []
+        },
+        {
+          "key": "send_email",
+          "name": "Send email to",
+          "values": [
+            {
+              "key": "all",
+              "name": "All team members"
+            },
+            {
+              "key": "all_admins_and_owners",
+              "name": "All admins and owners"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "key": "user_count",
+          "name": "User count",
+          "values": [],
+          "operators": [
+            {
+              "key": "Greater than",
+              "value": 5
+            },
+            {
+              "key": "Less than",
+              "value": 4
+            }
+          ],
+          "time": [],
+          "order": 0
+        },
+        {
+          "key": "feature_flag_name",
+          "name": "Feature flag name",
+          "order": 1,
+          "values": [
+            {
+              "id": "feature-flag-1",
+              "name": "feature-flag-1"
+            },
+            {
+              "id": "feature-flag-2",
+              "name": "feature-flag-2"
+            },
+            {
+              "id": "feature-flag-3",
+              "name": "feature-flag-3"
+            },
+            {
+              "id": "feature-flag-4",
+              "name": "feature-flag-4"
+            },
+            {
+              "id": "feature-flag-5",
+              "name": "feature-flag-5"
+            }
+          ],
+          "operators": [
+            {
+              "key": "Is one of",
+              "value": 8
+            }
+          ],
+          "time": []
+        }
+      ],
+      "triggers": [
+        {
+          "key": "Crash-free users for each feature and experiment in the last 24 hours",
+          "value": "crash_free_users",
+          "additional_conditions": [],
+          "trigger_options": [
+            {
+              "key": "crash_free_users",
+              "value": "Less than",
+              "unit": "%"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

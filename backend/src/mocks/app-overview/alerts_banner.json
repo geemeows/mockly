@@ -1,0 +1,15 @@
+{
+  "url": "/api/web/applications/:appSlug/:appMode/rules/rollout_protection",
+  "method": "GET",
+  "delay": 1000,
+  "status": 200,
+  "response": {
+    "rule": {
+      "id": "releases_01J8FSAJZR4WA3WBHAPT9XYY6Q",
+      "type": "Overall app",
+      "title": "Crash-free users less than 98% in the last 24 hrs",
+      "trigger": "apdex",
+      "conditions_met_count": 34
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "url": "/api/web/applications/:appSlug/:appMode/monitoring/android/release_schedule",
+  "method": "GET",
+  "delay": 3000,
+  "response": {
+    "has_schedule": true,
+    "schedule": [2, 5, 10, 20, 50],
+    "date_ms": null
+  }
+}

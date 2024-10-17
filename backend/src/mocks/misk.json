@@ -1,0 +1,56 @@
+{
+  "url": "/misk-reviews",
+  "method": "GET",
+  "delay": 1000,
+  "status": 200,
+  "response": {
+    "data": {
+      "due_date": "2024-05-25T14:16:08.695Z",
+      "steps": {
+        "main_info": true,
+        "basic_setup": {
+          "users": {
+            "done": true,
+            "count": 4
+          },
+          "equities": {
+            "done": true,
+            "count": null
+          },
+          "convertible_instruments": {
+            "done": true,
+            "count": 3
+          },
+          "options": {
+            "done": true,
+            "count": null
+          }
+        },
+        "valuations": {
+          "has_valuation": {
+            "done": true,
+            "count": null
+          },
+          "questionnaires": {
+            "done": true,
+            "count": null
+          },
+          "financials": {
+            "done": false,
+            "count": null
+          }
+        },
+        "kpi": {
+          "financials": {
+            "done": true,
+            "count": null
+          },
+          "team": {
+            "done": true,
+            "count": null
+          }
+        }
+      }
+    }
+	}
+}

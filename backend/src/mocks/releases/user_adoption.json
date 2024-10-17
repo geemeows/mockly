@@ -1,0 +1,23 @@
+{
+  "url": "/api/web/applications/:appSlug/:appMode/adoption/insights/users",
+  "method": "POST",
+  "delay": 3000,
+  "status": 200,
+  "response": {
+    "app_versions": {
+      "1.1 (1)": {
+        "users": 800
+      },
+      "3.0.4 (3)": {
+        "users": 122
+      },
+      "3.1.4 (4)": {
+        "users": 122
+      },
+      "4.1.2 (5)": {
+        "users": 122
+      }
+    },
+    "total_users": 1000
+  }
+}

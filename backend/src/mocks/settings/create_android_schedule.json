@@ -1,0 +1,6 @@
+{
+  "url": "/api/web/applications/:appSlug/:appMode/monitoring/android/create_release_schedule",
+  "method": "POST",
+  "delay": 3000,
+  "response": {}
+}

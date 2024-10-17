@@ -1,0 +1,54 @@
+{
+  "url": "/api/web/applications/:appSlug/:appMode/top_releases",
+  "method": "GET",
+  "delay": 1000,
+  "response": {
+    "top_releases": [
+      {
+        "app_version": "4.1.2 (5)",
+        "values": {
+          "total_sessions_today": 2970,
+          "app_version_sessions_today": 344,
+          "crash_free_sessions": 99.44937289691038,
+          "first_seen": 1675731337000
+        }
+      },
+      {
+        "app_version": "3.1.4 (4)",
+        "values": {
+          "total_sessions_today": 2970,
+          "app_version_sessions_today": 809,
+          "crash_free_sessions": 99.31894569255263,
+          "first_seen": 1675644937000
+        }
+      },
+      {
+        "app_version": "3.0.4 (3)",
+        "values": {
+          "total_sessions_today": 2970,
+          "app_version_sessions_today": 534,
+          "crash_free_sessions": 97.94012633891788,
+          "first_seen": 1675558537000
+        }
+      }
+    ],
+    "releases_comparison": {
+      "top_release": "4.1.2 (5)",
+      "compared_to": "3.1.4 (4)",
+      "difference": [
+        {
+          "metric": "cold_app_launch",
+          "value": -25.235740091722015
+        },
+        {
+          "metric": "hot_app_launch",
+          "value": 6.025068270226556
+        },
+        {
+          "metric": "frame_drop",
+          "value": 1.2451151141268455
+        }
+      ]
+    }
+  }
+}

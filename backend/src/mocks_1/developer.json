@@ -1,0 +1,372 @@
+{
+  "url": "/api/web/developer",
+  "method": "GET",
+  "delay": 0,
+  "response": {
+    "developer": {
+      "id": 267096,
+      "created_at": "2024-06-03T11:51:03.000Z",
+      "name": "geemeows",
+      "active_application_id": 268186,
+      "intercom_hash": "9465f3f81946e34ab888a70536f01399db348915acd74a39fe452a3b1ed601c7",
+      "avatar": "https://secure.gravatar.com/avatar/e1a6b6a7145d3ac791450f16ee6c60a9?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DGE%26font-size%3D0.35%26size%3D140%26background%3Dfff5e6%26color%3D617084",
+      "role": "administrator",
+      "verified": true,
+      "new_product_updates": 0,
+      "email": "melgazouly+prod@instabug.com",
+      "mfa": false,
+      "third_party_login": false,
+      "use_case": ["OTHER"],
+      "persona": "Other",
+      "show_persona_modal": false,
+      "pinned_products": [
+        "APP_OVERVIEW.APP_HEALTH",
+        "APP_OVERVIEW.RELEASES",
+        "ISSUES.BUGS",
+        "ISSUES.CRASHES",
+        "PERFORMANCE_METRICS.APP_LAUNCH",
+        "PERFORMANCE_METRICS.NETWORK",
+        "USER_FEEDBACK.APP_REVIEWS",
+        "USER_EXPERIENCE.SESSION_REPLAY",
+        "AUTOMATION.ALERTS",
+        "APP_OVERVIEW.EXPERIMENTS_HEALTH",
+        "USER_EXPERIENCE.EXECUTION_TRACES",
+        "APP_OVERVIEW.TEAM_PERFORMANCE"
+      ],
+      "company": {
+        "id": 65094,
+        "name": "instabug",
+        "created_at": "2021-06-03T10:11:54.000Z",
+        "activated": true,
+        "wire_transfer": false,
+        "team_members_count": 22,
+        "applications_count": 6,
+        "saved_replies": [
+          {
+            "id": 8011,
+            "developer_id": 256153,
+            "title": "refref",
+            "text": "refrefrefefe",
+            "actions": [
+              {
+                "url": "",
+                "title": "",
+                "type": ""
+              }
+            ],
+            "company_id": 65094,
+            "developer_name": "Hemdan",
+            "developer_avatar_url": "https://secure.gravatar.com/avatar/e57f0fb6599475afbed9f79023ae89c7?s=100&default=https%253A%252F%252Fui-avatars.com%252Fapi%252Fname%253DHE%2526font-size%253D0.35%2526size%253D140%2526background%253Dffe6f1%2526color%253D617084"
+          }
+        ],
+        "is_github": false,
+        "subscription_group": null,
+        "blocked": false,
+        "requested_trials": {
+          "app_overview": "requested",
+          "insights": "requested",
+          "crash_reporting": "requested",
+          "app_hangs": "requested",
+          "user_termination": "requested",
+          "screens": "requested",
+          "app_launch": "requested",
+          "screen_loading": "requested",
+          "ui_hangs": "requested",
+          "network": "requested",
+          "execution_traces": "requested",
+          "rules": "requested",
+          "incidents": "requested",
+          "release_management": "requested",
+          "experiments_pages": "requested",
+          "team_performance_page": "requested"
+        },
+        "features_used_before_status": {
+          "crashes": true,
+          "surveys": false,
+          "apm": true,
+          "announcements": false
+        },
+        "app_integrated": true,
+        "sdk_integrated_tracked": true
+      },
+      "subscription": {
+        "name": "standard-10",
+        "plan_details": {
+          "store_rating_integration": true,
+          "release_rollout": true,
+          "app_feedback": false,
+          "experiments_pages": true,
+          "team_performance_page": true,
+          "v2_aggregates": 56,
+          "data_retention": {
+            "aggregates": 56,
+            "bugs": 180,
+            "crashes": 90,
+            "apm": 30,
+            "sessions": 180,
+            "chats": 180
+          },
+          "collect_app_rates": false,
+          "realtime_session": false,
+          "allowed": true,
+          "info": {
+            "apps": 100,
+            "team": 100,
+            "apps_upper_limit": 100,
+            "team_upper_limit": 100,
+            "price": 0,
+            "interval": "monthly",
+            "annual_plan": "standard-annual-10"
+          },
+          "extra_app": {
+            "plan_name": "standard-10-apps",
+            "price": 0
+          },
+          "extra_member": {
+            "plan_name": "standard-10-members",
+            "price": 60
+          },
+          "upgrades": {
+            "plan": "ultimate-11"
+          },
+          "limits": {
+            "sessions": {
+              "current_bucket": {
+                "name": "standard-10-sessions-25_000-v2-bucket",
+                "limit": 25000
+              },
+              "buckets": [
+                {
+                  "limit": 25000,
+                  "price": 240,
+                  "name": "standard-10-sessions-25_000-v2-bucket"
+                },
+                {
+                  "limit": 75000,
+                  "price": 360,
+                  "name": "standard-10-sessions-75_000-v2-bucket"
+                },
+                {
+                  "limit": 150000,
+                  "price": 450,
+                  "name": "standard-10-sessions-150_000-v2-bucket"
+                },
+                {
+                  "limit": 250000,
+                  "price": 540,
+                  "name": "standard-10-sessions-250_000-v2-bucket"
+                },
+                {
+                  "limit": 500000,
+                  "price": 864,
+                  "name": "standard-10-sessions-500_000-v2-bucket"
+                },
+                {
+                  "limit": 750000,
+                  "price": 1260,
+                  "name": "standard-10-sessions-750_000-v2-bucket"
+                },
+                {
+                  "limit": 1000000,
+                  "price": 1728,
+                  "name": "standard-10-sessions-1_000_000-v2-bucket"
+                },
+                {
+                  "limit": 25000,
+                  "price": 120,
+                  "name": "standard-10-sessions-25_000-bucket"
+                }
+              ]
+            }
+          },
+          "insights": true,
+          "multiple_attachments": true,
+          "report_categories": true,
+          "rules": true,
+          "white_labeling": false,
+          "surveys": {
+            "basic": false,
+            "nps": false,
+            "app_store": false
+          },
+          "announcements": {
+            "basic": false,
+            "whats_new": false,
+            "version_update": false
+          },
+          "feature_requests": false,
+          "logs": {
+            "console": true,
+            "ibg": true,
+            "user_data": true,
+            "network_log": true,
+            "view_hierarchy": true,
+            "user_events": true,
+            "user_steps": true,
+            "repro_steps": true,
+            "sessions_profiler": true
+          },
+          "integrations": {
+            "free_integrations": true,
+            "paid_integrations": true,
+            "premium_integrations": true
+          },
+          "conversations": {
+            "email": true,
+            "in_app": true
+          },
+          "sso": false,
+          "apm": true,
+          "apm_settings": {
+            "metrics": {
+              "traces": {
+                "enabled": true,
+                "trace_attributes": true
+              },
+              "ui_hangs": {
+                "enabled": true
+              },
+              "networks": {
+                "enabled": true,
+                "trace_attributes": true
+              }
+            }
+          },
+          "crash_reporting": true,
+          "crashes_settings": {
+            "experiments": true
+          },
+          "app_overview": true,
+          "app_hangs": true,
+          "user_terminations": true,
+          "session_replay": false,
+          "audit_logs": false,
+          "public_url": true,
+          "bug_insights": true,
+          "show_user_consent": true,
+          "viewer_role": true,
+          "custom_roles": false
+        },
+        "active_until": "2021-06-17T10:11:54.000Z",
+        "lock_status": "unlocked",
+        "declined_card": false,
+        "offer_applied": false,
+        "request_downgrade": false,
+        "cancellation_date": null,
+        "in_trial_period": false,
+        "trial_remaining_days": null,
+        "trial_expired": false,
+        "requested_extension_at": null
+      },
+      "slack_integration_outdated": false,
+      "accessible_applications": [
+        {
+          "id": 177248,
+          "name": "instabug",
+          "slug": "instabug",
+          "target_os": 1,
+          "app_modes": [1],
+          "app_modes_strings": ["production"],
+          "mode": "production",
+          "token": "2fe1900c50710622176f0796ba09fe32",
+          "updated_at": "2024-06-26T14:20:29.000Z"
+        },
+        {
+          "id": 242541,
+          "name": "test",
+          "slug": "test",
+          "target_os": 1,
+          "app_modes": [1, 0],
+          "app_modes_strings": ["production", "beta"],
+          "mode": "production",
+          "token": "555d1ddf031b1562e347e68514006c0c",
+          "updated_at": "2024-09-22T13:48:35.000Z"
+        },
+        {
+          "id": 242542,
+          "name": "test",
+          "slug": "test",
+          "target_os": 1,
+          "app_modes": [1, 0],
+          "app_modes_strings": ["production", "beta"],
+          "mode": "beta",
+          "token": "93332ef73bf32e0ce7e2eee4c8eb76a5",
+          "updated_at": "2024-09-22T11:36:01.000Z"
+        },
+        {
+          "id": 260854,
+          "name": "Android-Test",
+          "slug": "android-test",
+          "target_os": 2,
+          "app_modes": [1, 0],
+          "app_modes_strings": ["production", "beta"],
+          "mode": "production",
+          "token": "47754e6b0b98d8cb4ce615deb59acf2d",
+          "updated_at": "2024-09-04T07:43:56.000Z"
+        },
+        {
+          "id": 260855,
+          "name": "Android-Test",
+          "slug": "android-test",
+          "target_os": 2,
+          "app_modes": [1, 0],
+          "app_modes_strings": ["production", "beta"],
+          "mode": "beta",
+          "token": "b644b665491523832534d61b28bb0a31",
+          "updated_at": "2024-02-06T18:40:00.000Z"
+        },
+        {
+          "id": 266696,
+          "name": "RN-App",
+          "slug": "rn-app",
+          "target_os": 4,
+          "app_modes": [1, 0],
+          "app_modes_strings": ["production", "beta"],
+          "mode": "production",
+          "token": "7cfc957b1911d9111abfc29a5ab1afbe",
+          "updated_at": "2024-02-09T18:46:46.000Z"
+        },
+        {
+          "id": 266697,
+          "name": "RN-App",
+          "slug": "rn-app",
+          "target_os": 4,
+          "app_modes": [1, 0],
+          "app_modes_strings": ["production", "beta"],
+          "mode": "beta",
+          "token": "ee2266427bdb4f2a35258f1c6a57b1bb",
+          "updated_at": "2024-06-14T14:03:53.000Z"
+        },
+        {
+          "id": 268186,
+          "name": "Nahla",
+          "slug": "nahla",
+          "target_os": 2,
+          "app_modes": [0, 4],
+          "app_modes_strings": ["beta", "qa"],
+          "mode": "beta",
+          "token": "1a821ab0dc3beb09d3b46b527db15f35",
+          "updated_at": "2024-06-19T12:57:20.000Z"
+        },
+        {
+          "id": 269904,
+          "name": "Nahla",
+          "slug": "nahla",
+          "target_os": 2,
+          "app_modes": [0, 4],
+          "app_modes_strings": ["beta", "qa"],
+          "mode": "qa",
+          "token": "fb5c0f39a7c84b5e829f3c0145c3b9bd",
+          "updated_at": "2024-06-26T13:43:33.000Z"
+        }
+      ],
+      "auth_type": "email",
+      "reminders_left": 3,
+      "permissions": {
+        "release_rollout": {
+          "restricted": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "url": "/api/web/applications/:appSlug/:appMode/monitoring/ratings/releases",
+  "method": "POST",
+  "delay": 0,
+  "response": {
+    "bundle_selected": true,
+    "data": {
+        "1.58 (58)": {
+            "reviews_star_rating": null,
+            "reviews_count": null
+        }
+    }
+  }
+}

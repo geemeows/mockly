@@ -1,0 +1,437 @@
+{
+  "url": "/api/web/applications/:appSlug/:appMode",
+  "method": "GET",
+  "delay": 0,
+  "response": {
+    "application": {
+      "id": 257738,
+      "token": "e307563b83e07f0e08173f744c5ea246",
+      "name": "React Native Demo App",
+      "slug": "react-native-demo-app",
+      "target_os": 4,
+      "lookups": {
+        "statuses": {
+          "bugs": [
+            {
+              "name": "New",
+              "color": "#f8a08f",
+              "id": 1
+            },
+            {
+              "name": "Closed",
+              "color": "#7fdfb1",
+              "id": 2
+            },
+            {
+              "name": "In-progress",
+              "color": "#ffdd7f",
+              "id": 3
+            }
+          ],
+          "crashes": [
+            {
+              "name": "New",
+              "color": "#f8a08f",
+              "id": 1
+            },
+            {
+              "name": "Closed",
+              "color": "#7fdfb1",
+              "id": 2
+            },
+            {
+              "name": "In-progress",
+              "color": "#ffdd7f",
+              "id": 3
+            }
+          ],
+          "chats": [
+            {
+              "name": "New",
+              "color": "#f8a08f",
+              "id": 1
+            },
+            {
+              "name": "Closed",
+              "color": "#7fdfb1",
+              "id": 2
+            },
+            {
+              "name": "In-progress",
+              "color": "#ffdd7f",
+              "id": null
+            }
+          ],
+          "surveys": [
+            {
+              "id": 1,
+              "name": "Published",
+              "color": "#f8a08f"
+            },
+            {
+              "id": 2,
+              "name": "Paused",
+              "color": "#f7941d"
+            },
+            {
+              "id": 3,
+              "name": "Drafts",
+              "color": "#8dc63f"
+            }
+          ]
+        },
+        "priorities": [
+          {
+            "id": -1,
+            "name": "N/A",
+            "icon": "sp-n-a"
+          },
+          {
+            "id": 1,
+            "name": "Trivial",
+            "icon": "sp-trivial"
+          },
+          {
+            "id": 2,
+            "name": "Minor",
+            "icon": "sp-minor"
+          },
+          {
+            "id": 3,
+            "name": "Major",
+            "icon": "sp-major"
+          },
+          {
+            "id": 4,
+            "name": "Blocker",
+            "icon": "sp-blocker"
+          }
+        ],
+        "team_members": [
+          {
+            "id": 204060,
+            "name": "Farida Thakeb",
+            "billing_contact": false,
+            "role": "owner",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/7b3a009189a4b5eae054a58b8698fcef?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DFT%26font-size%3D0.35%26size%3D140%26background%3Dfff5e6%26color%3D617084",
+            "email": "fthakeb@instabug.com"
+          },
+          {
+            "id": 238799,
+            "name": "demo owner",
+            "billing_contact": true,
+            "role": "owner",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/dbcd70b4923bbb9a63910130a3ceda61?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DDO%26font-size%3D0.35%26size%3D140%26background%3De6ffed%26color%3D617084",
+            "email": "demo-owner@instabug.com"
+          },
+          {
+            "id": 238800,
+            "name": "Demo Guest",
+            "billing_contact": false,
+            "role": "guest",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/24028b617c2ffcb669516ec6426d4663?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DDG%26font-size%3D0.35%26size%3D140%26background%3De6ffed%26color%3D617084",
+            "email": "demo-guest@instabug.com"
+          },
+          {
+            "id": 248493,
+            "name": "Bashary",
+            "billing_contact": false,
+            "role": "owner",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/80fbb95d22ca595be3bc508569009d4d?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DBA%26font-size%3D0.35%26size%3D140%26background%3Dd9ffe6%26color%3D617084",
+            "email": "aelbashary+sandbox@instabug.com"
+          },
+          {
+            "id": 248494,
+            "name": "Ahmed Anwar",
+            "billing_contact": false,
+            "role": "owner",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/87368f622d412fd4a5837974230961e7?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DAA%26font-size%3D0.35%26size%3D140%26background%3Df7e6ff%26color%3D617084",
+            "email": "aanwar+sandbox@instabug.com"
+          },
+          {
+            "id": 248883,
+            "name": "Ali Shawer",
+            "billing_contact": false,
+            "role": "owner",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/9e04948b1c0433254846950c809020c3?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DAS%26font-size%3D0.35%26size%3D140%26background%3Df7e6ff%26color%3D617084",
+            "email": "ashawer+salesdashboard@instabug.com"
+          },
+          {
+            "id": 248982,
+            "name": "Sherif Zulghina",
+            "billing_contact": false,
+            "role": "owner",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/57274fef6e0ba955584dd403c0493254?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DSZ%26font-size%3D0.35%26size%3D140%26background%3De6f4ff%26color%3D617084",
+            "email": "szulghina+sb@instabug.com"
+          },
+          {
+            "id": 249115,
+            "name": "Shams",
+            "billing_contact": false,
+            "role": "owner",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/bdf6ef08eda184d33ca1d46936f2745b?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DSH%26font-size%3D0.35%26size%3D140%26background%3De6ffed%26color%3D617084",
+            "email": "ashams+sb@instabug.com"
+          },
+          {
+            "id": 249801,
+            "name": "Lamees Sanad",
+            "billing_contact": false,
+            "role": "owner",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/4a8a43f7f544f02348b1a4c6dbbecc8b?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DLS%26font-size%3D0.35%26size%3D140%26background%3Dffede6%26color%3D617084",
+            "email": "lsanad+demo@instabug.com"
+          },
+          {
+            "id": 250449,
+            "name": "Eryn Carman",
+            "billing_contact": false,
+            "role": "owner",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/af7abcb480f4e6c5f7c2b3ca0ba9d510?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DEC%26font-size%3D0.35%26size%3D140%26background%3Dffe6f1%26color%3D617084",
+            "email": "ecarman+sandbox@instabug.com"
+          },
+          {
+            "id": 251334,
+            "name": "Hussein Abdel Ghaffar Sandbox",
+            "billing_contact": false,
+            "role": "owner",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/6b866492695fb8aec0ea334a014ebc09?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DHA%26font-size%3D0.35%26size%3D140%26background%3Df6ffe6%26color%3D617084",
+            "email": "habdelghaffar+sandbox@instabug.com"
+          },
+          {
+            "id": 251342,
+            "name": "Yasmine Mehrez",
+            "billing_contact": false,
+            "role": "owner",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/48e04a043b007061d2fd6e50605fef4c?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DYM%26font-size%3D0.35%26size%3D140%26background%3Dfff5e6%26color%3D617084",
+            "email": "ymehrez+sandbox@instabug.com"
+          },
+          {
+            "id": 251343,
+            "name": "Youssef Ahmed",
+            "billing_contact": false,
+            "role": "owner",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/21460c944bf9b1e35196a0ed2949883e?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DYA%26font-size%3D0.35%26size%3D140%26background%3De6f4ff%26color%3D617084",
+            "email": "yelkhorazaty+sandbox@instabug.com"
+          },
+          {
+            "id": 251344,
+            "name": "Rami",
+            "billing_contact": false,
+            "role": "owner",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/b5cb3a5b1bd47d3685aaaa2a613550b1?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DRA%26font-size%3D0.35%26size%3D140%26background%3Dfff5e6%26color%3D617084",
+            "email": "rmagdi+sandbox@instabug.com"
+          },
+          {
+            "id": 254278,
+            "name": "Abed",
+            "billing_contact": false,
+            "role": "administrator",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/16d2a7f73c2e7f7c3c16930feb4be8cb?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DAB%26font-size%3D0.35%26size%3D140%26background%3Df7e6ff%26color%3D617084",
+            "email": "aahmed+sandbox@instabug.com"
+          },
+          {
+            "id": 254935,
+            "name": "azab",
+            "billing_contact": false,
+            "role": "owner",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/1f068a9b434010e8ba02e5632ab5760c?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DAZ%26font-size%3D0.35%26size%3D140%26background%3Df7e6ff%26color%3D617084",
+            "email": "aelazab+sandbox@instabug.com"
+          },
+          {
+            "id": 256758,
+            "name": "Droidcon",
+            "billing_contact": false,
+            "role": "administrator",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/dfc9bc760fb11c3d680a277b934185ca?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DDR%26font-size%3D0.35%26size%3D140%26background%3De6ffed%26color%3D617084",
+            "email": "aelbashary+droidcon@instabug.com"
+          },
+          {
+            "id": 256893,
+            "name": "FarahManie",
+            "billing_contact": false,
+            "role": "member",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/d7b89a6c4f64c753c80aa90c7dccdedc?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DFA%26font-size%3D0.35%26size%3D140%26background%3De6ffed%26color%3D617084",
+            "email": "fhussein+sandbox@instabug.com"
+          },
+          {
+            "id": 257030,
+            "name": "Sean Higgins",
+            "billing_contact": false,
+            "role": "administrator",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/4fb811c50a2b4e1423c3ef203542ffe2?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DSH%26font-size%3D0.35%26size%3D140%26background%3Dfff5e6%26color%3D617084",
+            "email": "shiggins+sedemo@instabug.com"
+          },
+          {
+            "id": 257051,
+            "name": "Ahmed Tarek",
+            "billing_contact": false,
+            "role": "administrator",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/d7ccb5f29c21467afc2ccf9a441134d7?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DAT%26font-size%3D0.35%26size%3D140%26background%3Df6ffe6%26color%3D617084",
+            "email": "ahussein+sandbox@instabug.com"
+          },
+          {
+            "id": 257082,
+            "name": "Quinn Kennedy",
+            "billing_contact": false,
+            "role": "administrator",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/50ce6e4ad25aa26940e3185738e48185?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DQK%26font-size%3D0.35%26size%3D140%26background%3De6f4ff%26color%3D617084",
+            "email": "qkennedy+sedemo@instabug.com"
+          },
+          {
+            "id": 257094,
+            "name": "Devin W",
+            "billing_contact": false,
+            "role": "administrator",
+            "invited": false,
+            "verified": true,
+            "avatar": "https://secure.gravatar.com/avatar/a86c20d248ce18ff215a2fa271c278e6?s=100&default=https%3A%2F%2Fui-avatars.com%2Fapi%2Fname%3DDW%26font-size%3D0.35%26size%3D140%26background%3Df7e6ff%26color%3D617084",
+            "email": "dwilliams+sedemo@instabug.com"
+          }
+        ],
+        "tracking_tools": {
+          "bugs": [],
+          "crashes": [],
+          "chats": []
+        },
+        "tags": ["N/A", "Error", "Forwarded", "Payment", "UX", "VIP"],
+        "tags_map": [
+          {
+            "id": -1,
+            "name": "N/A"
+          },
+          {
+            "id": 1326935,
+            "name": "Error"
+          },
+          {
+            "id": 1328515,
+            "name": "Forwarded"
+          },
+          {
+            "id": 1326934,
+            "name": "Payment"
+          },
+          {
+            "id": 1328516,
+            "name": "UX"
+          },
+          {
+            "id": 1326933,
+            "name": "VIP"
+          }
+        ],
+        "categories": ["N/A"],
+        "bug_types": [
+          {
+            "name": "Bug",
+            "key": "Report a Problem"
+          },
+          {
+            "name": "Improvement",
+            "key": "Suggest an Improvement"
+          },
+          {
+            "name": "Question",
+            "key": "Ask a Question"
+          }
+        ],
+        "rules": [],
+        "user_attributes": ["key_user", "key_user_credit", "key_user_status"],
+        "user_attributes_map": [
+          {
+            "name": "key_user",
+            "number": 2
+          },
+          {
+            "name": "key_user_credit",
+            "number": 1
+          },
+          {
+            "name": "key_user_status",
+            "number": 3
+          }
+        ],
+        "user_events": ["EventThree", "EventTwo", "EventOne"],
+        "instana": {},
+        "datadog": {}
+      },
+      "nps_count": 0,
+      "bugs_count": 61,
+      "crashes_count": 18,
+      "chats_count": 61,
+      "surveys_count": 0,
+      "feature_requests_count": 0,
+      "activity_types": [
+        "team_member_changes",
+        "company_settings_changes",
+        "new_issue_reported",
+        "developer_replied_to_user",
+        "user_replied_to_developer",
+        "issue_changes",
+        "assigned_issue_changes"
+      ],
+      "integrated_sdk": true,
+      "has_surveys_forwarding_rules": false,
+      "apm_feature_used_before": true,
+      "has_tracking_tools": false,
+      "slack_integration_outdated": false,
+      "editing_bug_description_enabled": true,
+      "show_crashes_repro_steps": false,
+      "show_crashes_custom_grouping": true,
+      "apm_default_threshold_changed": false,
+      "has_store_integration": {
+        "android": false,
+        "ios": false
+      },
+      "fetched_reviews_before": {
+        "android": true,
+        "ios": true
+      },
+      "has_bundle_id": {
+        "android": true,
+        "ios": false
+      }
+    }
+  }
+}

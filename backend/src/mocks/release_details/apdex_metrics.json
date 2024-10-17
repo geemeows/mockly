@@ -1,0 +1,30 @@
+{
+  "url": "/api/web/applications/:appSlug/:appMode/monitoring/releases_details/app_versions_insights/apdex_metrics",
+  "method": "POST",
+  "delay": 3000,
+  "response": {
+    "current": {
+      "is_sessions_v3": true,
+      "app_apdex": 0.65,
+      "crash_free_sessions": 80.123,
+      "anr_free_sessions": 80.123,
+      "oom_free_sessions": 80.123,
+      "app_hangs_free_sessions": 80.123
+    },
+    "compared_to": {
+      "is_sessions_v3": true,
+      "app_apdex": 0.34,
+      "crash_free_sessions": 70.123,
+      "anr_free_sessions": 80.123,
+      "oom_free_sessions": 60.123,
+      "app_hangs_free_sessions": 50.123
+    },
+    "difference": {
+      "app_apdex": 0.29,
+      "crash_free_sessions": 10,
+      "anr_free_sessions": 0,
+      "oom_free_sessions": 20,
+      "app_hangs_free_sessions": 30.765
+    }
+	}
+}

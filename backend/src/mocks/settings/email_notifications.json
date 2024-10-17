@@ -1,0 +1,120 @@
+{
+  "url": "/api/web/developer/notification_settings",
+  "method": "GET",
+  "delay": 0,
+  "response": {
+    "notification_settings": {
+        "developer": {
+          "notify_profile_changes": true,
+          "notify_company_changes": false,
+          "subscribed_to_invoices": false
+        },
+        "applications": [
+          {
+            "notify_issue_changes": false,
+            "new_issue_notifications": [],
+            "notify_application_changes": false,
+            "notify_application_membership_changes": false,
+            "notify_new_top_release": true,
+            "daily_digest": false,
+            "surveys_daily_digest": false,
+            "application_slug": "birdy-demo-app",
+            "application_name": "Birdy Demo App"
+          },
+          {
+            "notify_issue_changes": false,
+            "new_issue_notifications": [],
+            "notify_application_changes": false,
+            "notify_application_membership_changes": false,
+            "notify_new_top_release": true,
+            "daily_digest": false,
+            "surveys_daily_digest": false,
+            "application_slug": "android-sample",
+            "application_name": "android-sample"
+          },
+          {
+            "notify_issue_changes": false,
+            "new_issue_notifications": [],
+            "notify_application_changes": false,
+            "notify_application_membership_changes": false,
+            "notify_new_top_release": true,
+            "daily_digest": false,
+            "surveys_daily_digest": false,
+            "application_slug": "butsteel-958525e0-4f32-451c-ac68-1bfedb859e02",
+            "application_name": "ButSteel"
+          },
+          {
+            "notify_issue_changes": false,
+            "new_issue_notifications": [],
+            "notify_application_changes": false,
+            "notify_application_membership_changes": false,
+            "notify_new_top_release": true,
+            "daily_digest": false,
+            "surveys_daily_digest": false,
+            "application_slug": "trial456",
+            "application_name": "ZTrial456"
+          },
+          {
+            "notify_issue_changes": true,
+            "new_issue_notifications": [
+                "bugs",
+                "crashes",
+                "chats"
+            ],
+            "notify_application_changes": true,
+            "notify_application_membership_changes": true,
+            "notify_new_top_release": true,
+            "daily_digest": false,
+            "surveys_daily_digest": false,
+            "application_slug": "productupdates",
+            "application_name": "ProductUpdates"
+          },
+          {
+            "notify_issue_changes": true,
+            "new_issue_notifications": [
+                "bugs",
+                "crashes",
+                "chats"
+            ],
+            "notify_application_changes": true,
+            "notify_application_membership_changes": true,
+            "notify_new_top_release": true,
+            "daily_digest": false,
+            "surveys_daily_digest": false,
+            "application_slug": "documentation",
+            "application_name": "Documentation"
+          },
+          {
+            "notify_issue_changes": true,
+            "new_issue_notifications": [
+                "bugs",
+                "crashes",
+                "chats"
+            ],
+            "notify_application_changes": true,
+            "notify_application_membership_changes": true,
+            "notify_new_top_release": true,
+            "daily_digest": false,
+            "surveys_daily_digest": false,
+            "application_slug": "your-awesome-app-effd2caf-72a8-4778-888a-018947aeb7d3",
+            "application_name": "Your Awesome App"
+          },
+          {
+            "notify_issue_changes": true,
+            "new_issue_notifications": [
+                "bugs",
+                "crashes",
+                "chats"
+            ],
+            "notify_application_changes": true,
+            "notify_application_membership_changes": true,
+            "notify_new_top_release": false,
+            "daily_digest": false,
+            "surveys_daily_digest": false,
+            "application_slug": "your-awesome-app-64f8342d-354f-4382-a133-bae807cac78a",
+            "application_name": "Your Awesome App-Android"
+          }
+        ]
+    }
+}
+}

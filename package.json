@@ -1,0 +1,11 @@
+{
+  "name": "mockly",
+  "version": "1.0.0",
+  "description": "Create mocks for your frontend apps easly",
+  "scripts": {
+    "frontend:serve": "cd frontend && yarn dev",
+    "backend:serve": "cd backend && yarn serve"
+  },
+  "author": "Gazouly",
+  "license": "ISC"
+}

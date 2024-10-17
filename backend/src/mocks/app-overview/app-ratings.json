@@ -1,0 +1,18 @@
+{
+  "url": "/api/web/applications/:appSlug/:appMode/monitoring/rating",
+  "method": "POST",
+  "delay": 2000,
+  "status": 200,
+  "response": {
+    "rating": 4.63636,
+    "ratings_count": 45957,
+    "ratings_histogram": {
+        "1": 2626,
+        "2": 0,
+        "3": 1313,
+        "4": 2626,
+        "5": 38078
+    },
+    "has_sufficient_ratings": true
+	}
+}
